@@ -1,0 +1,151 @@
+<!DOCTYPE><!--Brian Ryan-->
+<html>
+	<head>
+		<title>
+			St Vincent de Paul.ie
+		</title>
+			<link rel="stylesheet" type="text/css" href="home.css">
+	</head>
+		<body>
+			<header id = "header"><!--Header Division,contains date/time and logo's-->
+				<div id="hsplit">
+					<script type="text/javascript"><!--Java Script to display date and time in header-->
+						document.write ('<p id="date-time">', new Date().toLocaleString(), '<\/p>')
+						if (document.getElementById) onload = function () 
+						{
+						setInterval("document.getElementById ('date-time').firstChild.data = new Date().toLocaleString()", 50)
+						}
+						function myFunction() {<!--Java Script to display alert when user sends info-->
+						var x;
+						if (confirm("Thank You Your Information has been submitted!") == true) {
+						x = "You pressed OK!";
+						} else {
+						x = "You pressed Cancel!";
+						}
+						document.getElementById("demo").innerHTML = x;
+						}
+					</script>	
+				</div>
+				<!--Header Images, logo's--><div id="title"><img src = "Images/title.jpg" width = "580px" height = "50px" alt = "St Vincent de Paul Logo"/></div>
+												<div id="hsplitI"><img src = "Images/logo.jpg" width = "80px" height = "80px" alt = "St Vincent de Paul Logo"/></div>
+		</header>
+				<!--Navigation Bar-->
+					<nav id = "nav">
+						<ol type="I">	
+							<li><a href="home.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="history.html">History</li>
+							<li><a href="currentprograms.html">Fundraising</a></li>
+						</ol>
+					</nav>
+			<div class = "wrapper"><!--Main Body Wrapper, Consistent Throughout Website-->
+				<div class = "contcwrapperI">
+					<br><br><br><br><form><!--Form to take User Information-->
+						Please Complete this short form to register with us and let us know of your interest in the<br>St Vincent de Paul Society:<br><br>
+						Name:<font color = "red">*</font><input type = "text" name = "name"required>
+						<br><br>
+						Address:<textarea name = "address" rows = "4" cols = "40">
+						</textarea>	
+						<br><br>		
+						Password:<font color = "red">*</font><input type = "password" name = "password"required>
+						<br><br>
+						Male:<input type = "radio" name = "radio1" value ="yes">
+						Female:<input type = "radio" name = "radio1" value ="no">
+						<br><br>
+						Year of Birth:
+						<select name = "year" size = "1">
+						<option value = "96">1996
+						<option value = "95">1995
+						<option value = "94">1994
+						<option value = "93">1993
+						<option value = "92">1992
+						<option value = "91">1991
+						<option value = "90">1990
+						<option value = "89">1989
+						<option value = "88">1988
+						<option value = "87">1987
+						<option value = "86">1986
+						<option value = "85">1985
+						<option value = "84">1984
+						</select>
+						<br><br>
+						Tel:<input type = "tel" name = "phone" pattern "[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder = "999-999-9999">
+						<br><br>
+						Email:<font color = "red">*</font><input type = "email" name = "email address" placeholder = "enter your email" required>
+						<input type = "reset" value = "Reset">
+					</form>
+					<br><!--Text Box for additional comments-->
+					<textarea rows="4" cols="50" name="comment" form="usrform">
+Enter any additional comments here please...  </textarea>
+					<button type="button" onclick="myFunction()">Send</button>
+						<br><br>
+				</div>
+				<div class = "contcwrapperI">
+					<iframe width="455" height="600" src="http://www.youtube.com/embed/areZY-ZHY04"></iframe>
+				</div>
+				<div id = "contcwrapperII">
+					<div id= "tabled">
+							<br><br><br><br><br><br>
+						<table id = "table1" border = "2"><!--table containing contact numbers-->
+						<caption>Regional Contact Numbers</caption>
+						<tr >
+							<th>Region</th>
+							<th>Contact Name</th>
+							<th>Contact Number</th>
+						</tr>	
+						<tr>
+							<td>East Region</td>
+							<td>Contact Regional Office</td>
+							<td>01 8550022</td>
+						</tr>
+						<tr>
+							<td>South East Region</td>
+							<td>David O Neill</td>
+							<td>051 854568</td>
+						</tr>
+						<tr>
+							<td>North East Region</td>
+							<td>Ruth Flynn</td>
+							<td>041 9873331</td>
+						</tr>
+						<tr>
+							<td>Mid West Region</td>
+							<td>Eileen Hoffler </td>
+							<td>061 317327</td>
+						</tr>
+						<tr>
+							<td>West Region</td>
+							<td>Contact Regional Office</td>
+							<td>093 26293</td>
+						</tr>
+						<tr>
+							<td rowspan = "2">North Region</td>
+							<td>Marie Dunwoody</td>
+							<td>077 36288700</td>
+						</tr>
+						<tr>
+							<td>Mairead Breen</td>
+							<td>077 07364606</td>
+						</tr>
+						<tr>
+							<td>North West Region</td>
+							<td>Rosa Glacken</td>
+							<td>074 9173933</td>
+						</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+				<footer id = "footer"><br><br><!--Footer bar containing Social Hyper links and copyright info-->
+					<div class="tab"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.RyanDesigns.com&amp;layout=standard&amp;
+						show_faces=true&amp;action=like&amp;colorscheme=light&amp" style="overflow:hidden;width:250px;height:20px;float:left;" scrolling="no" frameborder="0" allowTransparency="true">
+							<a href="http://www.trivoo.net" class="fbook">www.trivoo.net</a></iframe></div><!--Facebook Button-->
+								<div id="tab1">Copywright 2014 @ St Vincent de Paul</div><!--Copyright Info-->
+									<div class="tab"><a href="https://twitter.com/svp_ireland" class="twitter-follow-button" data-show-count="true">Follow @SVdP</a>
+										<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+											if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';
+												fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script><!--Java Script for Twitter Button-->
+									</div>
+				</footer>
+		</body>
+</html>
