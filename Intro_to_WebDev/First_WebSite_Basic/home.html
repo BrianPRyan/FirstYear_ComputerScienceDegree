@@ -1,0 +1,69 @@
+<!DOCTYPE><!--Brian Ryan-->
+<html>
+	<head>
+		<title>
+			St Vincent de Paul.ie
+		</title>
+			<link rel="stylesheet" type="text/css" href="home.css">
+	</head>
+	<body>
+		<header id = "header"><!--Header Division,contains date/time and logo's-->
+			<div id="hsplit">
+				<script type="text/javascript"><!--Java Script to display date and time in header-->
+					document.write ('<p id="date-time">', new Date().toLocaleString(), '<\/p>')
+					if (document.getElementById) onload = function () 
+					{
+					setInterval("document.getElementById ('date-time').firstChild.data = new Date().toLocaleString()", 50)
+					}
+				</script>
+			</div><!--Header Images, logo's-->
+				<div id="title"><img src = "Images/title.jpg" width = "580px" height = "50px" alt = "St Vincent de Paul Logo"/></div>
+					<div id="hsplitI"><img src = "Images/logo.jpg" width = "80px" height = "80px" alt = "St Vincent de Paul Logo"/></div>
+		</header>
+			<!--Navigation Bar-->
+				<nav id = "nav">
+					<ol type="I">	
+						<li><a href="about.html">About</a></li>
+						<li><a href="history.html">History</li>
+						<li><a href="currentprograms.html">Fundraising</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ol>
+				</nav>
+			<div class = "wrapper"><!--Main Body Wrapper, Consistent Throughout Website-->
+				<div id = "wrapperI"><!--Page Wrap contains Image and Definition List-->
+					<section id = "section"><img src = "Images/main.jpg" width = "580px" height = "350px" style ="padding:50px;margin:10px 10px 10px 10px;" alt = "Banner Image of St Vincent de Paul Society"/></section>
+						<section id = "article">
+							<dl> <!--definition list-->
+								<dt>Governance</dt>  <!--definition term-->
+									<dd>The Society of Saint Vincent de Paul is a voluntary led organisation and its membership is spread throughout the country in over 1,250 Conferences
+									(the basic operating unit of the Society).</dd><br>  <!--definition description-->
+								<dt>Safegaurding Children and Vulnerable Adults</dt>
+									<dd>The Society of Saint Vincent de Paul (SVP) is committed to creating a safe, healthy and inclusive environment for all, particularly, the children,
+									young people and vulnerable adults whom we assist. We are committed at all times to ensuring their safety and welfare through upholding a child's rights specifically and human rights generally.</dd><br> 
+							</dl>
+						</section>
+				</div>
+				<div id = "wrapperII"><!--Content Division-->
+					<aside id = "aside">The Society of St. Vincent de Paul (SVP) charity is a Christian voluntary organisation, working with poor and disadvantaged people. Inspired by our principal founder, Frederic Ozanam, 
+										and our patron, St. Vincent de Paul, we seek to respond to the call every Christian receives to bring the love of Christ to those in need: "I was hungry and you gave me food" (Matthew 25).
+										No work of charity is foreign to the Society. We are involved in a diverse range of activities characterised by:Support and friendship. Through person-to-person contact, we are committed to respecting the dignity of those we assist 
+										and fostering self-respect. We assure confidentiality at all times and endeavour to establish relationships based on trust and friendship. Promoting self-sufficiency. It is not enough to provide short term material support. 
+										Those we assist are also helped to achieve self-sufficiency in the longer term and the sense of self-worth this provides. When problems are beyond our competence,
+										we enlist the support of specialised help.Working for Social Justice. We are committed to identifying the root causes of poverty and social exclusion in Ireland and, in solidarity with poor and disadvantaged people, 
+										to advocate and work for the changes required to create a more just and caring society.
+					</aside>
+				</div>
+			</div>
+				<footer id = "footer"><br><br><!--Footer bar containing Social Hyper links and copyright info-->
+					<div class="tab"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.RyanDesigns.com&amp;layout=standard&amp;
+						show_faces=true&amp;action=like&amp;colorscheme=light&amp" style="overflow:hidden;width:250px;height:20px;float:left;" scrolling="no" frameborder="0" allowTransparency="true">
+							<a href="http://www.trivoo.net" class="fbook">www.trivoo.net</a></iframe></div><!--Facebook Button-->
+								<div id="tab1">Copywright 2014 @ St Vincent de Paul</div><!--Copyright Info-->
+									<div class="tab"><a href="https://twitter.com/svp_ireland" class="twitter-follow-button" data-show-count="true">Follow @SVdP</a>
+										<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+											if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';
+												fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script><!--Java Script for Twitter Button-->
+									</div>
+				</footer>
+	</body>
+</html>	
