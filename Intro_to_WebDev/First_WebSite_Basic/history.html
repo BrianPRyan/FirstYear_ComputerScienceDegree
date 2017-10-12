@@ -1,0 +1,62 @@
+<!DOCTYPE><!--Brian Ryan-->
+<html>
+	<head>
+		<title>
+			St Vincent de Paul.ie
+		</title>
+			<link rel="stylesheet" type="text/css" href="home.css">
+	</head>
+		<body>
+			<header id = "header"><!--Header Division,contains date/time and logo's-->
+				<div id="hsplit">
+					<script type="text/javascript"><!--Java Script to display date and time in header-->
+					document.write ('<p id="date-time">', new Date().toLocaleString(), '<\/p>')
+					if (document.getElementById) onload = function () 
+					{
+					setInterval("document.getElementById ('date-time').firstChild.data = new Date().toLocaleString()", 50)
+					}
+					</script>
+				</div><!--Header Images, logo's-->
+					<div id="title"><img src = "Images/title.jpg" width = "580px" height = "50px" alt = "St Vincent de Paul Logo" /></div>
+						<div id="hsplitI"><img src = "Images/logo.jpg" width = "80px" height = "80px" alt = "St Vincent de Paul Logo" /></div>
+			</header>
+				<!--Navigation Bar-->
+					<nav id = "nav">
+						<ol type="I">	
+							<li><a href="home.html">Home</li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="currentprograms.html">Fundraising</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+						</ol>
+					</nav>
+			<div class = "wrapper"><!--Main Body Wrapper, Consistent Throughout Website-->
+				<div id = "historywrapperI">
+					<div id = "div1"><iframe width="590" height="485" src="http://www.youtube.com/embed/NtEQQHli70E"></iframe></iframe></div>
+						<div id = "div2"><img src = "Images/Frederic2011.jpg" width = "260px" height = "430px" style ="padding:25px;margin-left:45px;margin-top:5px;" alt = "Portrait of Frederic Ozanam" /><!--Images of Ozanam and St Vincent de Paul--></div>
+							<div id = "div3"><img src = "Images/StVincent.jpg" width = "260px" height = "430px" style ="padding:25px;margin:5px 5px;" alt = "Portrait of St.Vincent de Paul" /></div>
+				</div>
+					<div id = "historywrapperII">
+						The Founder of the Society of St.Vincent de Paul, was an Italian man named Frederic Ozanam(seen in the middle). Frederic was 20 years old when he began the Society with a number of friends in Paris on April 23, 1833.
+						The name of St.Vincent de Paul(seen on the right) was chosen for the new Society as its patron saint. From the outset the Society favoured a practical, direct approach to dealing with poverty. 
+						Frederic Ozanam laid down the instruction that SVP members must give of themselves, through their time, talents and resources to help the poor: 
+						The poor person is a unique person of God's fashioning with an inalienable right to respect, he said and instructed SVP volunteers:
+						You must not be content with tiding the poor over the poverty crisis. You must study their condition and the injustices which brought about such poverty, with the aim of a long-term improvement.
+						The Society of St. Vincent de Paul (SVP) was founded in Ireland in 1844. It is the largest voluntary charitable organisation in Ireland. 
+						During its history it has helped people in need through a Famine, a Civil War, a War of Independence, two World Wars and several economic recessions.
+						Our focus is on practical approach to dealing with poverty, alleviating its effects on individuals and families through working primarily in person-to-person contact by a unique system of family visitation and seeking 
+						to achieve social justice and equality of opportunity for all citizens.
+					</div>
+			</div>
+				<footer id = "footer"><br><br><!--Footer bar containing Social Hyper links and copyright info-->
+					<div class="tab"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.RyanDesigns.com&amp;layout=standard&amp;
+						show_faces=true&amp;action=like&amp;colorscheme=light&amp" style="overflow:hidden;width:250px;height:20px;float:left;" scrolling="no" frameborder="0" allowTransparency="true">
+							<a href="http://www.trivoo.net" class="fbook">www.trivoo.net</a></iframe></div><!--Facebook Button-->
+								<div id="tab1">Copywright 2014 @ St Vincent de Paul</div><!--Copyright Info-->
+									<div class="tab"><a href="https://twitter.com/svp_ireland" class="twitter-follow-button" data-show-count="true">Follow @SVdP</a>
+										<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+												if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';
+													fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script><!--Java Script for Twitter Button-->
+									</div>
+				</footer>
+		</body>
+</html>
