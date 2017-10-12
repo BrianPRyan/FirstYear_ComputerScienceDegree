@@ -1,0 +1,8 @@
+ Brian :	 Ryan :	 Cashel :	 123456 :	 500.0 	 
+ **The new Account Balance after GBP conversion is 625.0**
+ Dan :	 Gadd :	 Thurles :	 789456 :	 499.0 	 
+ **The new Account Balance after GBP conversion is 623.75**
+ Dom :	 Paty :	 Cashel :	 456123 :	 255.0 	 
+ **The new Account Balance after GBP conversion is 318.75**
+ Sean :	 Mugy :	 Thurles :	 659874 :	 289.0	 
+ **The new Account Balance after GBP conversion is 361.25**
